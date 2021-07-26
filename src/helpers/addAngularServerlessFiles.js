@@ -1,6 +1,6 @@
 const { join } = require('path')
 
-const { copySync, existsSync, removeSync, writeFileSync } = require('fs-extra')
+const { copySync, writeFileSync } = require('fs-extra')
 
 const { getServerlessTs } = require('./getDynamicTemplates')
 
