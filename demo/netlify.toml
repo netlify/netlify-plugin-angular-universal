@@ -11,7 +11,7 @@
 
 # TO-DO: remove when config-mutating bug is diagnosed by workflow
 [functions]
-included_files=["dist/angular-bfdx/browser/index.html"]
+included_files=["dist/angular-bfdx/browser"]
 node_bundler="esbuild"
 
 [[plugins]]
